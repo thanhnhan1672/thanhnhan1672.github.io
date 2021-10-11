@@ -1,0 +1,70 @@
+/* :root{
+    --text-color: red;
+} */
+    header{
+    background-color: tomato;
+   
+} 
+    section{
+    background-color: wheat;
+}
+    footer{
+    background-color: violet;
+}
+#logo{
+    position: relative;
+    left: 100px;
+}
+#timkiem{
+    position: relative;
+    left: 500px;
+    top: -45px;
+    width: 500px;
+    height: 25px;
+}
+    h1 {
+    color: red;
+}
+
+#hinh1{
+    position: relative;
+
+    left: 440px;
+}
+#hinh2{
+    position: relative;
+    left: 460px;
+}
+#hinh3{
+    position: relative;
+    left: 480px;
+}
+#hinh4{
+    position: relative;
+    left: 500px;
+}
+#chu1{
+    font-size: 18px;
+    position: relative;
+    top: 40px;
+    right: 380px;
+    
+}
+#chu2{
+    font-size: 18px;
+    position: relative;
+    top: 40px;
+    right: 310px;
+}
+#chu3{
+    font-size: 18px;
+    position: relative;
+    top: 40px;
+    right: 170px;
+}
+#chu4{
+    font-size: 18px;
+    position: relative;
+    top: 40px;
+    right: 70px;
+}
