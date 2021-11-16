@@ -235,3 +235,154 @@ footer{
 
 }
 }
+@media only screen and (max-width:739px) {
+    .main{
+        width: 100%;
+        background: linear-gradient(to top , rgba(0,0,0,0.5)50%,rgba(5, 3, 3, 0.5)50%),url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+        background-position: center;
+        background-size: cover;
+        height: auto;
+     
+        }
+        .navbar{
+            width: 100%;
+            height: 400px;
+            margin: auto;
+        }
+       
+        .icon{
+            width: 200px;
+            float: left;
+            height: 70px;
+        }
+        .logo{
+            color:chocolate;
+            font-size: 35px;
+            font-family: arial;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+        }
+        
+    
+    ul{
+        float:left;
+        display: block;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    ul li{
+        list-style: none;
+        margin-left: 12px;
+        margin-top: 17px;
+        font-size: 24px;
+        
+    }
+    ul li a{
+        text-decoration: none;
+        color:darkorange;
+        font-family: arial;
+        font-weight: bold;
+        transition: 0.4 ease-in-out;
+    }
+    ul li a:hover{
+        color:#ff7200;
+    }
+    .sub-menu{
+        display: none;
+        top: 40%;
+        position: relative;
+        background: lightcyan;
+      
+       
+    }
+    
+    
+    .active, ul li:hover{
+        width: 140px;
+        height: 40px;
+        background:#fff;
+        border-radius: 5px;
+    }
+    
+    ul li:hover .sub-menu{
+      
+        margin-top: 5px;
+        width: 500px;
+        height: 200px;
+        display: block;
+        position: absolute;
+        
+     
+        
+    }
+    
+    
+    
+    .main ul li:hover .sub-menu ul{
+        display: block;
+        margin: 6px;
+    }
+    
+    .main ul li:hover .sub-menu ul li{
+        margin-bottom: 20px;
+        margin-left: -8px;
+        width: 1800px;
+        height: 5px;
+        
+        border-bottom: 1px #fff;
+        background: transparent;
+        transition: 0.4 ease;
+        
+        border-radius: 10px;
+        
+    }
+
+
+    .content{
+        background-color: azure;
+        width: 100%;
+        height: 3600px;
+        margin: auto;
+       margin-top: 6%;
+        position:relative;
+        padding-bottom: 20px;
+    }
+    img{
+        width: 100%;
+    }
+    h1{
+        font-size: 40px;
+    
+        margin-left: 0;
+    }
+    h6{
+        
+        font-size: 45px;
+    margin-left: 0;
+    }
+    h2{
+        font-size: 30px;
+        color:brown;
+    }
+    h4{
+        font-size: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 25px;
+    }
+    footer{
+        
+       height: 540px;
+       width: 100%;
+       background-color: black; 
+       color: cornsilk;
+       font-size: 18px;
+    
+    }
+}
