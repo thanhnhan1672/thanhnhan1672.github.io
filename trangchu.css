@@ -604,3 +604,181 @@ ul li:hover .sub-menu{
 }
 
      */
+@media only screen and (max-width:739px) {
+    .main{
+        width: 100%;
+        background: linear-gradient(to top , rgba(0,0,0,0.5)50%,rgba(5, 3, 3, 0.5)50%),url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+        background-position: center;
+        background-size: cover;
+        height: auto;
+     
+        }
+        .navbar{
+            width: 100%;
+            height: 550px;
+            margin: auto;
+        }
+       
+        .icon{
+            width: 200px;
+            float: left;
+            height: 70px;
+        }
+        .logo{
+            color:chocolate;
+            font-size: 35px;
+            font-family: arial;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+        }
+        
+    
+    ul{
+        float:left;
+        display: block;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    ul li{
+        list-style: none;
+        margin-left: 12px;
+        margin-top: 17px;
+        font-size: 24px;
+        
+    }
+    ul li a{
+        text-decoration: none;
+        color:darkorange;
+        font-family: arial;
+        font-weight: bold;
+        transition: 0.4 ease-in-out;
+    }
+    ul li a:hover{
+        color:#ff7200;
+    }
+    .sub-menu{
+        display: none;
+        top: 40%;
+        position: relative;
+        background: lightcyan;
+      
+       
+    }
+    
+    
+    .active, ul li:hover{
+        width: 140px;
+        height: 40px;
+        background:#fff;
+        border-radius: 5px;
+    }
+    
+    ul li:hover .sub-menu{
+      
+        margin-top: 5px;
+        width: 500px;
+        height: 200px;
+        display: block;
+        position: absolute;
+        
+     
+        
+    }
+    
+    
+    
+    .main ul li:hover .sub-menu ul{
+        display: block;
+        margin: 6px;
+    }
+    
+    .main ul li:hover .sub-menu ul li{
+        margin-bottom: 20px;
+        margin-left: -8px;
+        width: 1800px;
+        height: 5px;
+        
+        border-bottom: 1px #fff;
+        background: transparent;
+        transition: 0.4 ease;
+        
+        border-radius: 10px;
+        
+    }
+    .content{
+    
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .content .par{
+        font-family: 30px;
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+    }
+    .content h1{
+        font-family: 'Times New Roman';
+        font-size: 50px;
+        padding-left: 0;
+        margin-top: 15%;
+        letter-spacing: 2px;
+    }
+    .content.cn{
+        margin-top: 20px;
+        width: 160px;
+        height: 80px;
+        background: #ff7200;
+       
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    .content.cn a{
+       
+        text-decoration: none;
+        color:darkgray;
+        transition: .3s ease;
+    }
+    .cn:hover{
+        background-color:powderblue;
+    }
+    .content span{
+        color: #ff7200;
+        font-size: 55px;
+    }
+    .content1 h2{
+        font-size: 30px;
+        color:orange;
+    
+    
+        }
+    .content1 p{
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .form{
+   float: right;
+        width: 250px;
+        height: 390px;
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+        position: absolute;
+        top: 100%;
+       margin-left: -260px;
+        border-radius: 10px;
+        
+    }
+}
+
