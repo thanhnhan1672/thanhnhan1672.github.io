@@ -1,53 +1,237 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    
+
 }
-header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cdn.statically.io/img/truyenvn.tv/f=auto/tin/wp-content/uploads/2020/11/nhan-vat-duoc-yeu-thich-nhat-kimetsu-no-yaiba.jpg);
-    height: 100vh;
-    background-size: cover;
+body{
+    background-color:blanchedalmond;
+}
+
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top , rgba(0,0,0,0.5)50%,rgba(5, 3, 3, 0.5)50%),url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
     background-position: center;
-}
+    background-size: cover;
+    height: 20vh;
+ 
+    }
+    .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+    }
+    .icon{
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+    .logo{
+        color:chocolate;
+        font-size: 35px;
+        font-family: arial;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+    }
+    .menu{
+        width: 800px;
+        float:left;
+        height: 70px;
+    }
+
 ul{
-    float: right;
+    float:left;
+    display: flex;
     list-style-type: none;
-    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+
 }
 ul li{
-    display: inline-block;
+    list-style: none;
+    margin-left: 92px;
+    margin-top: 17px;
+    font-size: 24px;
+    
 }
 ul li a{
     text-decoration: none;
-    color:#fff;
-    padding: 5px 20px;
-    border: 1px solid #000;
-    transition: 0.9s ease;
+    color:darkorange;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
 }
 ul li a:hover{
-    background-color: #fff;
-    color: #000;
+    color:#ff7200;
 }
-ul li.active a{
-    background-color: #fff;
-    color: #000;
+.sub-menu{
+    display: none;
+    top: 3%;
+    position: relative;
+  
+   
 }
-.logo img{
-    float: left;
-    width: 200px;
-    height: auto;
+
+
+.active, ul li:hover{
+    width: 140px;
+    height: 40px;
+    background:#fff;
+    border-radius: 5px;
 }
-.main{
-    max-width: 1400px;
-    margin: auto;
-}
-.titlel{
+
+ul li:hover .sub-menu{
+  
+    margin-top: 15px;
+    width: 500px;
+    height: 300px;
+    display: block;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
+    
+ 
+    
 }
-.titlel h1{
-    font-size: 70px;
-    color:#FFF;
+
+
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover .sub-menu ul li{
+    margin-bottom: 20px;
+    margin-left: -8px;
+    width: 1800px;
+    height: 5px;
+    
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    
+    border-radius: 10px;
+    
+}
+
+.content{
+    background-color: azure;
+    width: 800px;
+    height: 2300px;
+    margin: auto;
+   margin-top: 6%;
+    position:relative;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 40px;
+
+    margin-left: 200px;
+}
+h6{
+    
+    font-size: 45px;
+margin-left: 270px;
+}
+h2{
+    font-size: 30px;
+    color:brown;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+h5{
+    font-size: 25px;
+}
+footer{
+    
+   height: 140px;
+   width: 100%;
+   background-color: black; 
+   color: cornsilk;
+   font-size: 18px;
+
+}
+@media only screen and (min-width:740px) and (max-width: 1023px){
+    .main{
+        width: 100%px;
+        background: linear-gradient(to top , rgba(0,0,0,0.5)50%,rgba(5, 3, 3, 0.5)50%),url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+        background-position: center;
+        background-size: cover;
+        height: 25vh;
+     
+        }
+.navbar{
+    width:100%px;
+    height: 75px;
+    
+} 
+.logo{
+    color:chocolate;
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 12px;
+    margin-top: 15px;
+    font-size: 25px;
+    
+}
+.sub-menu{
+    display: none;
+    top: 2%;
+    position: relative;
+  
+   
+}
+.content{
+    background-color: azure;
+    width: 800px;
+    height: 2300px;
+    margin: auto;
+   margin-top: 20%;
+    position:relative;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 40px;
+
+    margin-left: 200px;
+}
+h6{
+    
+    font-size: 45px;
+margin-left: 270px;
+}
+h2{
+    font-size: 30px;
+    color:brown;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+h5{
+    font-size: 25px;
+}
+footer{
+    
+   height: 140px;
+   width: 100%;
+   background-color: black; 
+   color: cornsilk;
+   font-size: 18px;
+
+}
 }
